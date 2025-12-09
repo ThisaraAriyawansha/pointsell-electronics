@@ -9,12 +9,8 @@
             
             <!-- Company Name -->
             <p class="text-sm sm:text-base">{{ $settings[6]->value }}</p>
-            
-            <!-- Separator (hidden on mobile) -->
-            <span class="hidden md:block">|</span>
-            
-            <!-- Credit -->
-            <p class="text-sm sm:text-base">Designed and Developed by PlexCode</p>
+                        
+
         </div>
         
         <!-- Additional responsive elements can be added here -->
