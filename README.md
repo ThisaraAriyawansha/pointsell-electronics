@@ -1,7 +1,7 @@
 # 🔌 PointSell Electronics POS System
 
 A modern Point-of-Sale and inventory management system built specially for **electronic component shops** such as resistor, capacitor, transistor, IC, module, and tool stores.  
-Developed using **Laravel, Livewire, Tailwind CSS, and MySQL**, it provides a fast, secure, and customizable retail management solution.
+Developed using **Laravel, Tailwind CSS, and MySQL**, it provides a fast, secure, and customizable retail management solution.
 
 ---
 
