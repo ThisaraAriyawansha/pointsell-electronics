@@ -70,18 +70,6 @@ The POS billing page is fully optimized for **80mm thermal printers** and genera
 
 ---
 
-## 🖼 Screenshots
 
-> Add your real images here inside the repository.
-
-| Page | Preview |
-|------|---------|
-| Dashboard | ![Dashboard](/Project/PointSell%20Electronics/screenshot-dashboard.png) |
-| POS Terminal | ![POS](/Project/PointSell%20Electronics/screenshot-pos-terminal.png) |
-| Items | ![Items](/Project/PointSell%20Electronics/screenshot-items.png) |
-| Receipt | ![Receipt](/Project/PointSell%20Electronics/screenshot-receipt.png) |
-| Permissions | ![Permissions](/Project/PointSell%20Electronics/screenshot-permissions.png) |
-
----
 
 
