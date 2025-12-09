@@ -9,7 +9,6 @@
             
             <!-- Company Name -->
             <p class="text-sm sm:text-base">{{ $settings[6]->value }}</p>
-                        
 
         </div>
         

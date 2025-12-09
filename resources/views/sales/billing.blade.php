@@ -1786,17 +1786,17 @@ const PAGE_CONFIG = {
         centerText('{{ $settings[6]->value}}', currentY);
 
         // Add new header detail with reduced gap
-        doc.setFontSize(10);
+        doc.setFontSize(8);
         currentY += 5; // Reduced gap before the new detail
         doc.setFont('helvetica', 'normal'); // Revert to normal font after highlighting
         // Add the detailed description line by line
-        centerText('Wholesale & Retail Dealers in Aquarium Supplies', currentY);
+        centerText('Wholesale & Retail Dealers in Electronic Components', currentY);
         currentY += PAGE_CONFIG.spacing.lineHeight;
-        centerText('Tropical Fish, Tanks, Filters & Air Pumps,', currentY);
+        centerText('Resistors, Transistors, Capacitors, ICs & Diodes', currentY);
         currentY += PAGE_CONFIG.spacing.lineHeight;
-        centerText('Fish Food, Aquatic Plants & Accessories', currentY);
+        centerText('Sensors, Modules, Breadboards & Development Boards', currentY);
         currentY += PAGE_CONFIG.spacing.lineHeight;
-        centerText('Everything Your Pet Needs!', currentY);
+        centerText('All Your Electronic Parts in One Place!', currentY);
 
 
         doc.setFontSize(8);
@@ -1941,21 +1941,28 @@ doc.setFontSize(9);
     // Footer
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(7);
+
     centerText('======== THANK YOU! VISIT AGAIN ========', currentY);
     currentY += PAGE_CONFIG.spacing.lineHeight;
-    centerText('# Fish and Aquatic Products can be exchanged within 07 days', currentY);
+
+    centerText('# Electronic components can be exchanged within 07 days.', currentY);
+    currentY += PAGE_CONFIG.spacing.lineHeight;
+
+    centerText('# Original receipt must be presented for any exchanges.', currentY);
+    currentY += PAGE_CONFIG.spacing.lineHeight;
+
+    centerText('# Items damaged due to mishandling, wrong wiring,', currentY);
+    currentY += PAGE_CONFIG.spacing.lineHeight;
+    centerText('or incorrect voltage are not covered under warranty.', currentY);
 
     currentY += PAGE_CONFIG.spacing.lineHeight;
-    centerText('# Original receipt must be shown for any exchanges.', currentY);
-    currentY += PAGE_CONFIG.spacing.lineHeight;
-    centerText('# Water quality issues, transportation stress, or physical damage', currentY);
-    currentY += PAGE_CONFIG.spacing.lineHeight;
-    centerText('after purchase are not covered under warranty.', currentY);
-    currentY += PAGE_CONFIG.spacing.lineHeight;
     centerText('------------------------------------------------------------', currentY);
+
     const currentYear = new Date().getFullYear();
     currentY += PAGE_CONFIG.spacing.lineHeight;
-    centerText(`Powered by PlexCode.`, currentY);
+
+    centerText(`Powered by PointSell Electronics.`, currentY);
+
 
 
     // Generate and open PDF
